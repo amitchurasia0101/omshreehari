@@ -11,7 +11,7 @@ body {
 }
 
 .main {
-    background-image: url(/sandwich.jpg);
+    background-image: url(sandwich.jpg);
     background-size: max(1200px, 100vw);
     height: 644px;
     background-repeat: no-repeat;
@@ -123,7 +123,7 @@ section {
     z-index: 30;
 }
 section {
-    background-image: url(/appetizing-spaghetti-italian-pasta-with-tomato-sauce.jpg);
+    background-image: url(top-view-delicious-noodles-concept.jpg);
     background-size: max(1200px, 100vw);
     height: 525px;
     background-repeat: no-repeat;
