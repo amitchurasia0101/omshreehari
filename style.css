@@ -125,7 +125,7 @@ section {
 section {
     background-image: url(top-view-delicious-noodles-concept.jpg);
     background-size: max(1200px, 100vw);
-    height: 525px;
+    height: 524px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -336,18 +336,20 @@ ord:active{
 }
 @media screen and (max-width: 400px) {
     .information h3 {
-        padding: 10px;
+        /* padding: 10px; */
         font-family: 'Poppins', sans-serif;
-        font-size: 10px;
+        font-size: 13px;
     }
     
-    .information p {
-        padding: 10px;
+    
+    
+     .information p {
+        /* padding: 10px; */
         font-family: 'Martel Sans', sans-serif;
         width: 60%;
         margin: 0 auto;
         text-align: center;
-        font-size: 5px;
+        font-size: 10px;
     }
     .logos {
         width: 80px;
@@ -365,6 +367,67 @@ ord:active{
         width: 100%;
         /* border: 2px solid white; */
         gap: 5px;
+    }
+    .container {
+        display: flex;
+        
+        height: 320px;
+        width: 320px;
+        margin: 100px auto;
+        background-color: rgba(240, 248, 255, 0.084);
+        /* border: 2px solid red; */
+        justify-content: center;
+        box-shadow: -6px 2px 20px 18px rgba(0, 0, 0, 0.447);
+        border-radius: 8px;
+        /* align-items: center; */
+    }
+    
+    .card {
+        /* border: 2px solid red; */
+        width: 100vw;
+    }
+    
+    /* .img {
+        margin: 35px auto;
+        width: 249px;
+        height: 55px;
+        overflow: hidden;
+        border-radius:5px ;
+        
+    
+    
+        /* border: 2px solid rgba(255, 255, 255, 0.758); */
+    
+    */
+    img{
+        width: 100px;
+    }
+    
+    .dp {
+        width: 390px;
+        height: 390px;
+    }
+    
+    .text {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+        gap: 10px;
+    
+    } 
+    
+    
+    
+    .secondry-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        /* margin: 50px 0px; */
+    
     }
 }
 
