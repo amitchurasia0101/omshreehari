@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@200;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+.main {
+    background-image: url(/sandwich.jpg);
+    background-size: max(1200px, 100vw);
+    height: 644px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    /* background-color: black; */
+    /* opacity: 0.8; */
+}
+
+.navbar {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    z-index: 10;
+
+}
+
+.des {
+    display: flex;
+    width: 400px;
+
+    border: 2px solid #ff3011;
+}
+
+.main .box {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.571);
+    /* Black with 50% opacity */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 644px;
+    justify-content: center;
+    align-items: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+    color: rgba(233, 233, 233, 0.979);
+    gap: 25px;
+
+}
+
+.information h3 {
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+
+.information p {
+    padding: 10px;
+    font-family: 'Martel Sans', sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.intro-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* grid-template-columns: 1fr 1fr ; */
+
+    width: 100%;
+    /* border: 2px solid white; */
+    gap: 19px;
+}
+
+.logos {
+    width: 150px;
+    height: 120px;
+    background-color: #ff3011;
+}
+
+.logos img {
+    margin-top: 19px;
+
+}
+
+section {
+    display: flex;
+    
+    color: white;
+    margin: auto;
+    padding: 60px;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.abut-item .infor {
+    gap: 20px;
+}
+.separation {
+    height: 7px;
+    background-color: rgba(253, 4, 4, 0.379);
+    position: relative;
+    z-index: 30;
+}
+section {
+    background-image: url(/appetizing-spaghetti-italian-pasta-with-tomato-sauce.jpg);
+    background-size: max(1200px, 100vw);
+    height: 525px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    
+}
+.box2{
+    height: 670px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.571);
+    /* Black with 50% opacity */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 644px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    height: 280px;
+    width: 450px;
+    margin: 100px auto;
+    background-color: rgba(240, 248, 255, 0.084);
+    /* border: 2px solid red; */
+    justify-content: center;
+    box-shadow: -6px 2px 20px 18px rgba(0, 0, 0, 0.447);
+    border-radius: 8px;
+    /* align-items: center; */
+}
+
+.card {
+    /* border: 2px solid red; */
+    width: 100vw;
+}
+
+.img {
+    margin: 35px auto;
+    width: 249px;
+    height: 55px;
+    overflow: hidden;
+    border-radius:5px ;
+    
+
+
+    /* border: 2px solid rgba(255, 255, 255, 0.758); */
+
+}
+
+.dp {
+    width: 390px;
+    height: 390px;
+}
+
+.text {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+    gap: 10px;
+
+} 
+
+
+
+button {
+    height: 53px;
+    width: 57px;
+    border: 1px solid rgba(37, 37, 37, 0.717);
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+    background-color: transparent;
+
+}
+.yt{
+    height: 50px;
+}
+
+.secondry-button {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 50px 0px;
+
+}
+.secondry-button a{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.msg {
+    /* border: 2px solid black; */
+    padding: 10px;
+    height: 25px;
+    width: 121px;
+    text-align: center;
+    background-color: #5f6064;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border-radius: 5px;
+
+
+}
+.call{
+    background-color: rgba(217, 255, 0, 0.932);
+    color: #f90000;
+    
+}
+.ord{
+    background-color: red;
+}
+.call:hover {
+    background-color: rgba(200, 255, 0, 0.491);
+}
+.ord:hover{
+    background-color: rgba(229, 0, 0, 0.546);
+}
+ord:active{
+    background-color: yellow;
+    color: rgb(250, 1, 1);
+}
+.footer {
+    background-color: #212529;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+ 
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+  @media screen and (max-width: 1300px) {
+
+    nav{
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+    h3 {
+        font-family: 'Martel Sans', sans-serif;
+        font-size: 16px;
+    }
+    
+    p {
+        font-family: 'Poppins', sans-serif;
+        width: 80%;
+        font-size: 8px;
+        text-align: center;
+        margin: 0 auto;
+    
+    }
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        margin: auto;
+        padding: 30px;
+        gap: 20px;
+        justify-content: space-evenly;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    .information h3 {
+        padding: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+    }
+    
+    .information p {
+        padding: 10px;
+        font-family: 'Martel Sans', sans-serif;
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 10px;
+    }
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        margin: auto;
+        padding: 60px;
+        gap: 50px;
+        justify-content: space-evenly;
+    }
+
+    
+}
+@media screen and (max-width: 400px) {
+    .information h3 {
+        padding: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+    }
+    
+    .information p {
+        padding: 10px;
+        font-family: 'Martel Sans', sans-serif;
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 5px;
+    }
+    .logos {
+        width: 80px;
+        height: 90px;
+        padding: 20px;
+        background-color: #f90000;
+    }
+    .intro-logo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* grid-template-columns: 1fr 1fr ; */
+    
+        width: 100%;
+        /* border: 2px solid white; */
+        gap: 5px;
+    }
+}
+
+  
